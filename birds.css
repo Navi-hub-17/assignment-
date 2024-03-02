@@ -1,0 +1,120 @@
+body {
+    background-color: #eff6e0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Changed to min-height */
+    margin: 0;
+}
+h1 {
+    font-style:italic;
+    text-align: center;
+}
+.bird-container {
+    text-align: left;
+    margin-bottom: 10px; /* Adjust spacing between bird divs */
+}
+.bird {
+    border-radius: 30px;
+    border: 0cap;
+    height: 600px;
+    width: 500px;
+    background-color: hwb(126 68% 24%);
+    margin-bottom: 10px;
+    border: 2px solid #bee9e8;
+}
+#head1{
+    width: 350px;
+    height: 50px;
+    text-align: center;
+    font-family:'poppins';
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    background-color:#bee9e8;
+    color: #598392;
+    border-radius: 50px;
+    border: 1px solid #598392;
+}
+.header{
+    text-align: center;
+    font-family:'poppins';
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: #598392;
+    border-radius: 50px;
+    /* border: 2px solid rgb(0, 0, 0); */
+
+}
+button {
+    background-color: #bee9e8;
+    color: #598392;
+    font-size: 20px;
+    padding: 11px 20px;
+    border: 1px solid #598392;
+    cursor: pointer;
+    border-radius: 50px;
+    margin: 10px;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'poppins'; /* Adjust spacing between last bird div and button */
+}
+button:hover {
+    background-color: white;
+    font-size: 20px;
+    padding: 11px 20px;
+    border: 1px solid #598392;
+    cursor: pointer;
+    border-radius: 50px;
+    margin: 10px;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'poppins';
+
+}
+
+a{
+    text-decoration: none;
+}
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 35px; /* Adjust spacing between last bird div and button */
+    margin-bottom: 30px; /* Adjust spacing between last bird div and button */
+}
+.para{
+
+    padding: 10px; 
+    height: 50px;
+    width: 460px;
+    
+
+}
+.bird-aunty{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 275px;
+    width: 480px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: #598392;
+    font-weight: 500;
+}
